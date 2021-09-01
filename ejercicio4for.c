@@ -1,19 +1,19 @@
 #include<stdio.h>
-
 int main(){
 	
-	int total,n1,i;
+	int total=1,n1=0,i;
 	
 	printf("ingrese un numero: ");
 	scanf("%d",&n1);
 	
-	for(i=1;i<n1;i++){
+	for(i=1;i<=n1;i++){
+
+		total=total*i;
 		
-		total+=n1*i;
-		
-}
-	printf("%d",total);		
-			
-	return 0;
 	}
+	
+	printf("\nel factorial del numero es: %d",total);
+	return 0;
+}
+
 	
