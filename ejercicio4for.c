@@ -8,7 +8,7 @@ int main(){
 	
 	for(i=1;i<=n1;i++){
 
-		total=total*i;
+		total+=total*i;
 		
 	}
 	
